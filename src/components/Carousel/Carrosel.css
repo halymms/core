@@ -1,0 +1,22 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery-slide .image-gallery-image {
+  object-fit: initial;
+}
+
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: 430px;
+}
+
+.image-gallery-bullets .image-gallery-bullet.active {
+  background: #F8475F;
+} 
+
+.image-gallery-bullets .image-gallery-bullet:hover {
+  background: #F8475F !important;
+}
+
+.image-gallery-bullets .image-gallery-bullet {
+  background: #BDBDBD;
+  border: none !important;
+} 
